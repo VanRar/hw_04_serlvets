@@ -28,8 +28,8 @@ public class MainServlet extends HttpServlet {
     protected void service(HttpServletRequest req, HttpServletResponse resp) {
         // если деплоились в root context, то достаточно этого
         try {
-            final var path = req.getRequestURI();
-            final var method = req.getMethod();
+            final String path = req.getRequestURI();
+            final String method = req.getMethod();
             final long id = Long.parseLong(path.substring(path.lastIndexOf("/")));
 
             // primitive routing
