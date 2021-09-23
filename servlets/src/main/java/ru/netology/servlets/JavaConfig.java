@@ -6,6 +6,7 @@ import ru.netology.controller.PostController;
 import ru.netology.repository.PostRepository;
 import ru.netology.service.PostService;
 
+
 @Configuration
 public class JavaConfig {
     @Bean

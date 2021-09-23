@@ -11,6 +11,7 @@ import java.io.Reader;
 //Controller - приём запросов и подготовка ответов
 //сериализация и десериализация данных, вызов нужного сервиса.
 
+
 public class PostController {
     public static final String APPLICATION_JSON = "application/json";
     private final PostService service;
